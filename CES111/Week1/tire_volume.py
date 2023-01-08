@@ -13,10 +13,3 @@ tire_diameter = int(input("Enter the diameter of the wheel in inches (ex 15): ")
 
 calculated_tire_size = get_volume(tire_width=tire_width, tire_aspect_ratio=tire_aspect_ratio, tire_diameter=tire_diameter)
 print(f"The Approximate vloume is {calculated_tire_size:.2f} Liters.")
-
-a = 1
-b = 3
-c = -2
-result = a + b * 7 % 4 - c
-
-print(result)
