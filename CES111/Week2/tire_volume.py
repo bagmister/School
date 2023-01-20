@@ -9,8 +9,11 @@ def get_volume(tire_width, tire_aspect_ratio, tire_diameter):
 
     return bottom_divider
 
-def write_to_file(tire_width,tire_aspect_ratio, tire_diameter, calculated_tire_size, current_date):
-    with open()
+def write_to_file(tire_width, tire_aspect_ratio, tire_diameter, calculated_tire_size, current_date):
+    file_path = pathlib.PureWindowsPath('C:/Users/Bagmister.DESKTOP-8VDDAPO/Dev/School/CES111/Week2/volumes.txt')
+    with open('file_path', "a") as file:
+        calculated_tire_values_to_write_to_file = [f"{tire_width} \n",f"{tire_aspect_ratio} \n", f"{tire_diameter} \n", f"{calculated_tire_size} \n", f"{current_date} \n"]
+        file.writelines(calculated_tire_values_to_write_to_file)
 
 tire_width = int(input("Enter the width of the tire in mm (ex 205): "))
 tire_aspect_ratio = int(input("Enter the aspect ratio of the tire (ex 60): "))
@@ -21,4 +24,4 @@ print(f"The Approximate vloume is {calculated_tire_size:.2f} Liters.")
 
 current_date = dt.datetime.now()
 print(current_date)
-
+write_contents = write_to_file(tire_width, tire_aspect_ratio, tire_diameter, calculated_tire_size, current_date)
