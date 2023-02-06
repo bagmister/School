@@ -101,4 +101,4 @@ def get_verb(quantity, tense):
     verb_selected = random.choice(verb_list)
     return verb_selected
 
-    main()
+main()
