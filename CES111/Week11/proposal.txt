@@ -1,0 +1,44 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    As a Motorhome owner I have a lot of componeants that require maintanence and up keep. When looking at the manual.
+    There are a lot of things then just the engine and transmisson maintanence. I need a program that can tell me 
+    When to change the oil and other related engine maintanence. How long I have had the tires for and
+    if I have hit the milage wear out or aged out in years on the Motorhome. I also need  to keep track of
+    the generator maintanence, seals on the roof and other body componenats, Chassis lubrication, 2 stand
+    alone AC systems that need to be maintained and serviced, Sewer system, water system including water pum
+    and plumbing. How long the roof has been on the Motorhome, Tire pressure and PSI that should be 
+    in the tire based off of the weight load on each axle for the tires and when next anticipated service is. I 
+    would like to make a program where I enter in the millage that I currnelty have and keeps track of when
+    new items have been purchsed and installed. I would like it to print out a message telling me when next
+    items are due for service in milage or years of service from the current date and time of the system 
+    and what I entered in for the Odomerter for the last millage. I also want to enter everything though
+    a user interface that I can run on my computer to show what is needed.
+
+1. What is the title of your program? Motorhome maintanence aid.
+
+2. What real-world problem will your program address or help to solve?
+    Keeping up with the schedule of needed maintanence on my Motorhome and all the components that 
+    are listed.
+
+3. What will you learn from developing this program?
+    from a programing perspective I will need to use pandas to agragate the data, use the datetime modules.
+    I will also need to inturpit the value of a user entered and calculate a value based on Age and millage.
+    I will use arrays,dictionaries, lists
+
+4. What Python modules will your program use?
+
+    csv, datetime, math,
+    pandas, pytest, requests, tkinter.
+
+5. Will you separate your Python program into functions that each
+perform a single task?
+
+    Yes I will be making a series of functions that build off of eachother. I will 
+    need to account for some user input but the values will be calculated without their input.
+
+6. Will you write test functions to test at least two of your program
+functions? 
+
+Every function I make will be able to be tested. Ones that require user input will have
+a set value stored and used so calculations can be validated as good. Based off of a given number.
+
