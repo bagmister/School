@@ -21,7 +21,7 @@ currentYear.textContent = "2023";
 
 // Step 7: place the value of the picture variable into the HTML file (hint: document.querySelector().setAttribute())
 
-
+const myPicture = document.querySelector("#mainPhoto").src ='images/myPhoto.jpg';
 
 
 /* ARRAYS */
