@@ -11,12 +11,13 @@ class MagicNumber
         while (UserGuess != Magicnumber)
         {
             Console.Write("What is your guess?");
+            Console.WriteLine($"MagicNumber is {Magicnumber}");
             UserGuess = int.Parse(Console.ReadLine());
-            if (UserGuess > Magicnumber)
+            if (Magicnumber > UserGuess)
             {
                 Console.WriteLine("Higher");
             }
-            else if (UserGuess < Magicnumber)
+            else if (Magicnumber < UserGuess)
             {
                 Console.WriteLine("Lower");
             }
