@@ -14,29 +14,59 @@ function addNumbers(){
     var addend2 = parseInt(document.querySelector("#addend2").value);
 
 
-    sum = add(zoomaddend1, addend2);
+    sum = add(addend1, addend2);
+    document.querySelector("#sum").value = sum;
     return sum;
 }
+
+function subtract(number1, number2){
+    difference = number1 - number2
+    return difference
+}
+
+function subtractNumbers(){
+    var minuend = parseInt(document.querySelector("#minuend").value);
+    var subtrahend = parseInt(document.querySelector("#subtrahend").value);
+
+    difference = subtract(minuend, subtrahend)
+    document.querySelector('#difference').value = difference
+
+}
+
+function divideNumbers(){
+    var dividend = parseInt(document.querySelector("#dividend").value);
+    var divisor = parseInt(document.querySelector("#divisor").value);
+    
+    quotient = subtract(dividend, divisor)
+    document.querySelector('#quotient').value = quotient
+}
+
+function division(number1, number2){
+    quotient = number1 - number2
+    return quotient
+}
+
+function multiply(number1, number2){
+    product = number1 * number2
+    return product
+}
+
+function multiplyNumbers(){
+    var factor1 = parseInt(document.querySelector("#factor1").value);
+    var factor2 = parseInt(document.querySelector("#factor2").value);
+
+    product = multiply(factor1, factor2)
+    document.querySelector('#product').value = product
+}
+
 let buttonAdd = document.getElementById("addNumbers");
-sum = buttonAdd.addEventListener("click", function() {addNumbers();});
-document.querySelector("#sum").value = sum;
-
-// Step 2: In the function, return the sum of the parameters number1 and number2
-
-// Step 3: Step 3: Using function declaration, define another function named addNumbers that gets the values of two HTML form controls with IDs of addend1 and addend2. Pass them to the add function
-
-// Step 4: Assign the return value to an HTML form element with an ID of sum
-
-// Step 5: Add a "click" event listener to the HTML button with an ID of addNumbers that calls the addNumbers function
-
-// Step 6: Using function expressions, repeat Steps 1-5 with new functions named subtract and subtractNumbers and HTML form controls with IDs of minuend, subtrahend, difference and subtractNumbers
-
-// Step 7: Using arrow functions, repeat Steps 1-5 with new functions named multiply and mulitplyNumbers and HTML form controls with IDs of factor1, factor2, product and multiplyNumbers
-
-// Step 8: Using any of the three function declaration types, repeat Steps 1-5 with new functions named divide and divideNumbers and HTML form controls with IDs of dividend, divisor, quotient and divideNumbers
-
-// Step 9: Test all of the mathematical functionality of the task3.html page.
-
+let sum = buttonAdd.addEventListener("click", function() {addNumbers();});
+let buttonSub = document.getElementById("subtractNumbers");
+let diff = buttonAdd.addEventListener("click", function() {subtractNumbers();});
+let buttonmult = document.getElementById("multiplyNumbers");
+let product = buttonAdd.addEventListener("click", function() {multiplyNumbers();});
+let buttondiv = document.getElementById("divideNumbers");
+let quotient = buttonAdd.addEventListener("click", function() {divideNumbers();});
 
 /* BUILT-IN METHODS */
 
