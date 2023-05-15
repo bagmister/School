@@ -1,9 +1,3 @@
-/* Lesson 3 */
-
-/* FUNCTIONS */
-
-// Step 1: Using function declaration, define a function named add that takes two arguments, number1 and number2
-
 function add(number1, number2) {
     sum = number1 + number2;
     return sum;
@@ -59,6 +53,29 @@ function multiplyNumbers(){
     document.querySelector('#product').value = product
 }
 
+function getOddsArray(value){
+    return value % 2 !== 0
+}
+
+function getEvensArray(value){
+    return value % 2 === 0;
+}
+
+function reduceArray(accumulator, value){
+    return accumulator + value;
+}
+
+function arrayMappedDoubled(value){
+    return value * 2;
+}
+
+function sumDoubbled(){
+
+}
+
+let currentDate = new Date();
+let year  = currentDate.getFullYear();
+document.getElementById('year').innerHTML = year;
 let buttonAdd = document.getElementById("addNumbers");
 let sum = buttonAdd.addEventListener("click", function() {addNumbers();});
 let buttonSub = document.getElementById("subtractNumbers");
@@ -68,29 +85,15 @@ let product = buttonAdd.addEventListener("click", function() {multiplyNumbers();
 let buttondiv = document.getElementById("divideNumbers");
 let quotient = buttonAdd.addEventListener("click", function() {divideNumbers();});
 
-/* BUILT-IN METHODS */
-
-// Step 1: Declare and instantiate a variable of type Date to hold the current date
-
-// Step 2: Declare a variable to hold the current year
-
-// Step 3: Using the variable declared in Step 1, call the built-in getFullYear() method/function and assign it to the variable declared in Step 2
-
-// Step 4: Assign the current year variable to an HTML form element with an ID of year
-
-
-/* ARRAY METHODS */
-
-// Step 1: Declare and instantiate an array variable to hold the numbers 1 through 25
-
-// Step 2: Assign the value of the array variable to the HTML element with an ID of "array"
-
-// Step 3: Use the filter array method to find all of the odd numbers of the array variable and assign the reult to the HTML element with an ID of "odds" ( hint: % (modulus operartor) )
-
-// Step 4: Use the filter array method to find all of the even numbers of the array variable and assign the result to the HTML element with an ID of "evens"
-
-// Step 5: Use the reduce array method to sum the array variable elements and assign the result to the HTML element with an ID of "sumOfArray"
-
-// Step 6: Use the map array method to multiple each element in the array variable by 2 and assign the result to the HTML element with an ID of "multiplied"
-
-// Step 7: Use the map and reduce array methods to sum the array elements after multiplying each element by two.  Assign the result to the HTML element with an ID of "sumOfMultiplied"
+let myArray = [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19,20,21,22,23,24,25];
+document.getElementById('array').innerHTML = myArray;
+let odds = myArray.filter(getOddsArray);
+document.getElementById('odds').innerHTML = odds;
+let evens = myArray.filter(getEvensArray);
+document.getElementById('evens').innerHTML = evens;
+let arraySum = myArray.reduce(reduceArray);
+document.getElementById('sumOfArray').innerHTML = arraySum;
+let arrayMapped = myArray.map(arrayMappedDoubled);
+document.getElementById('multiplied').innerHTML = arrayMapped;
+let doubbledArraysum = arrayMapped.reduce(reduceArray)
+document.getElementById('sumOfMultiplied').innerHTML = doubbledArraysum
