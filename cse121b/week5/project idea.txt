@@ -1,0 +1,5 @@
+For my project idea. I wrote a small python program for CSE 111. It's currently written in python and has no ui. I want to add a UI for it and refactor the oil change and tire change functions into javascript and have clickable buttons to add items and save to local storage. Is this something I could do? 
+an object for example would be an oil change. it will contain. Location performed, date and current odometer reading.
+Tire change would be another. date, location, tires changed from a selectable list with check boxes for the tire changed.
+
+The program is an aid for maintenance for a motorhome. I am making it for myself to organize my data and maintenance I do on my motorhome. It would use objects, arrays, dictionaries, and multiple functions and modules potentially.
