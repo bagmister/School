@@ -4,7 +4,7 @@ const currentDate = new Date()
 const currentDayOfWeek = currentDate.getDay()
 let welcomeMessage = ""
 let secondMessage = ""
-const weekdays = ['Monday, Tuesday, Wednesday, Thursday, Friday']
+const weekdays = [1, 2, 3, 4, 5]
 let templesList = []
 
 function GetCurrentDay(currentDayOfWeek){
@@ -38,17 +38,83 @@ function GetCurrentDay(currentDayOfWeek){
     return secondMessage
 }
 
-function output(templesList) {
-    templesList.forEach(element => {
-        document.createElement("article")
-        document.createElement("h3", {templeName: element.templeName})
-        document.createElement("h4", {location: element.location})
-        document.createElement("h4", {dedicated: element.dedicated})
-        document.createElement("img", {src : element.imageUrl},)
-
-        
-    });
+function output(templeList) {
+    let temples = document.querySelector('#temples')
+    templeList.forEach(temple => {
+        const templeName = document.createElement("h3")
+        templeName.innerHTML = temple.templeName
+        temples.append(templeName)
+        const templelocation = document.createElement("h4")
+        templelocation.innerHTML = temple.location
+        temples.append(templelocation)
+        const templeDedication = document.createElement("h4")
+        templeDedication.innerHTML = temple.dedicated
+        temples.append(templeDedication)
+        const templeImage = document.createElement("img")
+        templeImage.setAttribute("src", temple.imageUrl)
+        templeImage.innerHTML = temple.imageUrl
+        temples.append(templeImage)
+    }
+    );
 }
+
+async function getTemples(){
+    url = 'https://byui-cse.github.io/cse121b-course/week05/temples.json'
+    const response = await fetch(url);
+    if (response.ok) {
+        templesList = await response.json();
+      output(templesList);
+    }
+}
+
+function resetWorld() {
+  document.querySelector('#temples').textContent = ''
+}
+
+function sortBy(){
+    resetWorld()
+    if (templesList[0].templeName == "Bountiful Utah Temple"){
+        const sortedTemples = templesList.sort(compareDescend)
+        output(sortedTemples)
+
+    }
+    else{
+        const sortedTemples = templesList.sort(compareAscend)
+        output(sortedTemples)
+    }
+}
+
+function compareDescend(temple1, temple2){
+    const compareValue = temple1.templeName.localeCompare(temple2.templeName)
+    if(compareValue < 0){
+
+        return 1;
+    }
+    else if (compareValue > 0) {
+        return -1;
+    }
+    else{ 
+        return 0;
+    }
+}
+
+function compareAscend(temple1, temple2){
+    const compareValue = temple1.templeName.localeCompare(temple2.templeName)
+    if(compareValue > 0){
+
+        return 1;
+    }
+    else if (compareValue < 0) {
+        return -1;
+    }
+    else{ 
+        return 0;
+    }
+}
+
+let temples = getTemples()
+
+document.querySelector("#sortBy").addEventListener("change", sortBy)
 
 if (currentDayOfWeek in weekdays){
     welcomeMessage = "hang in there!"
@@ -59,18 +125,7 @@ else {
 
 document.querySelector('#message2').textContent = GetCurrentDay(currentDayOfWeek)
 document.querySelector('#message1').textContent = welcomeMessage
-output(templesList)
-
-/* FETCH */
-
-// Step 2: Declare a function named output that accepts a list of temples as an array argument and does the following for each temple:
-// - Creates an HTML <article> element
-// - Creates an HTML <h3> element and add the temple's templeName property to it
-// - Creates an HTML <h4> element and add the temple's location property to it
-// - Creates an HTML <h4> element and add the temple's dedicated property to it
-// - Creates an HTML <img> element and add the temple's imageUrl property to the src attribute and the temple's templeName property to the alt attribute
-// - Appends the <h3> element, the two <h4> elements, and the <img> element to the <article> element as children
-// - Appends the <article> element to the HTML element with an ID of temples
+document.querySelector('#year').textContent = currentDate.getFullYear();
 
 // Step 3: Create another function called getTemples. Make it an async function.
 // Step 4: In the function, using the built-in fetch method, call this absolute URL: 'https://byui-cse.github.io/cse121b-course/week05/temples.json'. Create a variable to hold the response from your fetch. You should have the program wait on this line until it finishes.
