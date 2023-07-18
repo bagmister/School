@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>CSE 121b: Week 04 | Sample Solution</title>
+	<title>Motorhome maintenence</title>
 	<link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles/main.css">
 </head>
@@ -14,41 +14,29 @@
     <nav>
         <ul id="menu">
             <li><a id="toggleMenu">&equiv;</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Lesson 2</a></li>
-            <li><a href="#">Lesson 3</a></li>
-            <li><a href="#" class="active">Lesson 4</a></li>
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="oilchange.html">Oil changes</a></li>
+            <li><a href="index.html" id="tireChange">Tire changes</a></li>
+            <li><a href="index.html" id="houseMaint">House maintenence</a></li>
         </ul>
     </nav>
     <header>
-        <h1>Biography Revisited</h1>
-        <img id="photo" src="images/placeholder.png" alt="Photo">
+        <h1>Motorhome Maintenence</h1>
+        <form>
+            <label for="currentMillage">Enter your current oddometer reading:</label><br>
+            <form id="currentMillage">
+                <input id="currentMillageMotorhome" type="number" name="currentMillage"><br>
+                <button onclick="storeCurrentMillage(event)">Submit</button>
+            </form>
+        <img id="photo" src="images/welcome_page.jpeg" alt="Photo">
     </header>
     <main>
-        <section>
-            <div>
-                <label>Name:</label>
-                <span id="name"></span>
-            </div>
-            <div>
-                <label>Favorite Foods:</label>
-                <ul id="favorite-foods"></ul>
-            </div>
-            <div>
-                <label>Hobbies:</label>
-                <ul id="hobbies"></ul>
-            </div>
-            <div>
-                <label>Places Lived:</label>
-                <dl id="places-lived"></dl>
-            </div>
-        </section>
     </main>
 	<footer>
-        &copy;<span id="year"></span> | Biography Revisited | Lesson 4
+        &copy;<span id="year"></span> | Motorhome Maintenence
     </footer>
-    <script src="scripts/main.js"></script>
-    <script src="scripts/task4.js"></script>
+    <script src="main.js"></script>
+    <script src="motorhome.js"></script>
 </body>
 
 </html>

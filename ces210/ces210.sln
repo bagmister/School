@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.001.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "randomnumber", "Week2\randomnumber.csproj", "{BD961840-8FE6-46F7-AE50-7FB05BAA0150}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Develop03", "Week3\Develop03.csproj", "{A5178D87-2851-43B2-8B71-2219FC9E7B3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mindfullness", "Week5\mindfullness.csproj", "{F400F854-A193-428F-8EDA-16C253C1B6C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD961840-8FE6-46F7-AE50-7FB05BAA0150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD961840-8FE6-46F7-AE50-7FB05BAA0150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD961840-8FE6-46F7-AE50-7FB05BAA0150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD961840-8FE6-46F7-AE50-7FB05BAA0150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5178D87-2851-43B2-8B71-2219FC9E7B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5178D87-2851-43B2-8B71-2219FC9E7B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5178D87-2851-43B2-8B71-2219FC9E7B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5178D87-2851-43B2-8B71-2219FC9E7B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F400F854-A193-428F-8EDA-16C253C1B6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F400F854-A193-428F-8EDA-16C253C1B6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F400F854-A193-428F-8EDA-16C253C1B6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F400F854-A193-428F-8EDA-16C253C1B6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27CABEF1-5770-4FD1-94C8-9658667A80BF}
+	EndGlobalSection
+EndGlobal

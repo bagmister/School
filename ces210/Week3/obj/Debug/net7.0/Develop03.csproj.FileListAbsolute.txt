@@ -1,0 +1,15 @@
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\bin\Debug\net7.0\Develop03.exe
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\bin\Debug\net7.0\Develop03.deps.json
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\bin\Debug\net7.0\Develop03.runtimeconfig.json
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\bin\Debug\net7.0\Develop03.dll
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\bin\Debug\net7.0\Develop03.pdb
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\obj\Debug\net7.0\Develop03.csproj.AssemblyReference.cache
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\obj\Debug\net7.0\Develop03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\obj\Debug\net7.0\Develop03.AssemblyInfoInputs.cache
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\obj\Debug\net7.0\Develop03.AssemblyInfo.cs
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\obj\Debug\net7.0\Develop03.csproj.CoreCompileInputs.cache
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\obj\Debug\net7.0\Develop03.dll
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\obj\Debug\net7.0\refint\Develop03.dll
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\obj\Debug\net7.0\Develop03.pdb
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\obj\Debug\net7.0\Develop03.genruntimeconfig.cache
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week3\obj\Debug\net7.0\ref\Develop03.dll

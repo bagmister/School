@@ -1,6 +1,5 @@
 using System;
 
-
 class MagicNumber
 {
     static void Main(string[] args)

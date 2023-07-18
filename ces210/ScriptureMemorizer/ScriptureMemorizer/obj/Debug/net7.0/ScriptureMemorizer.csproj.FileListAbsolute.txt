@@ -1,0 +1,15 @@
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\bin\Debug\net7.0\ScriptureMemorizer.exe
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\bin\Debug\net7.0\ScriptureMemorizer.deps.json
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\bin\Debug\net7.0\ScriptureMemorizer.runtimeconfig.json
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\bin\Debug\net7.0\ScriptureMemorizer.dll
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\bin\Debug\net7.0\ScriptureMemorizer.pdb
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\obj\Debug\net7.0\ScriptureMemorizer.csproj.AssemblyReference.cache
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\obj\Debug\net7.0\ScriptureMemorizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\obj\Debug\net7.0\ScriptureMemorizer.AssemblyInfoInputs.cache
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\obj\Debug\net7.0\ScriptureMemorizer.AssemblyInfo.cs
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\obj\Debug\net7.0\ScriptureMemorizer.csproj.CoreCompileInputs.cache
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\obj\Debug\net7.0\ScriptureMemorizer.dll
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\obj\Debug\net7.0\refint\ScriptureMemorizer.dll
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\obj\Debug\net7.0\ScriptureMemorizer.pdb
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\obj\Debug\net7.0\ScriptureMemorizer.genruntimeconfig.cache
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\ScriptureMemorizer\ScriptureMemorizer\obj\Debug\net7.0\ref\ScriptureMemorizer.dll

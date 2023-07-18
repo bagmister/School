@@ -1,0 +1,15 @@
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\bin\Debug\net7.0\mindfullness.exe
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\bin\Debug\net7.0\mindfullness.deps.json
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\bin\Debug\net7.0\mindfullness.runtimeconfig.json
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\bin\Debug\net7.0\mindfullness.dll
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\bin\Debug\net7.0\mindfullness.pdb
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\obj\Debug\net7.0\mindfullness.csproj.AssemblyReference.cache
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\obj\Debug\net7.0\mindfullness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\obj\Debug\net7.0\mindfullness.AssemblyInfoInputs.cache
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\obj\Debug\net7.0\mindfullness.AssemblyInfo.cs
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\obj\Debug\net7.0\mindfullness.csproj.CoreCompileInputs.cache
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\obj\Debug\net7.0\mindfullness.dll
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\obj\Debug\net7.0\refint\mindfullness.dll
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\obj\Debug\net7.0\mindfullness.pdb
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\obj\Debug\net7.0\mindfullness.genruntimeconfig.cache
+C:\Users\Bagmister.DESKTOP-8VDDAPO\Dev\School\ces210\Week5\obj\Debug\net7.0\ref\mindfullness.dll
